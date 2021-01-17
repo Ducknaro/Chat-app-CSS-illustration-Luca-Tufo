@@ -1,0 +1,146 @@
+/* BODY SECTION*/
+body{
+ background: url('../intro-component-with-signup-form-master/images/bg-intro-desktop.png'),
+ rgb(235, 93, 93);
+
+ animation: opacity 0.9s ease-in;
+}
+
+
+/* CONTAINER SECTION*/
+.container{
+ width: 90%;
+ margin: 5rem auto;
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.container .first-box{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width:100%;
+}
+
+.container .first-box h1{
+ color:white;
+ font-family: 'weight-700';
+ line-height: 1.2;
+ font-size:2.8rem;
+}
+
+
+.container .first-box p{
+ color:white;
+ font-family: 'weight-500';
+ font-size: 12px;
+ margin-top: 1.5rem;
+}
+
+
+.container .box{
+ display: flex;
+ flex: 1 1 28rem;
+}
+
+
+.container .second-box{
+ display: flex;
+ flex-direction: column;
+ width:30rem;
+}
+.container .second-box .second-form #form{
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+ min-height: 20rem;
+ border-radius: 10px;
+}
+
+.container .second-box .second-form #form label:nth-child(1){
+ margin-top:1.5rem;
+}
+
+.container .second-box .second-form #form label input{
+ width: 90%;
+ border-radius: 10px;
+ margin: 1rem 1.5rem;
+ padding: 1rem;
+ border: none;
+ box-shadow: 0.2rem 0.2rem 0.5rem 0rem rgba(0,0,0,0.5);
+}
+
+.container .second-box .second-first{
+ max-width: 100%;
+ height: 4rem;
+ border-radius: 10px;
+ background-color: $blue-color;
+ padding: 1.2rem;
+ margin-bottom: 1rem;
+}
+
+.container .second-box .second-first p{
+ text-align:center;
+ color:white;
+ font-family: 'weight-700';
+}
+
+
+.container .second-box .second-form #form #button{
+ width: 90%;
+ margin: 0.5rem 1.5rem;
+ padding: 1rem;
+ border-radius: 10px;
+ color:white;
+ font-family: 'weight-700';
+ background-color: $green-color;
+ border: none;
+ box-shadow: 0.2rem 0.2rem 0.5rem 0rem rgba(0,0,0,0.5);
+ cursor: pointer;
+}
+
+.container .second-box .second-form #form #button:hover{
+ background-color: rgb(45, 97, 15);
+}
+
+.container .second-box .second-form #form p{
+ margin: 0.8rem 0rem 3rem 0rem;
+ text-align: center;
+}
+
+.container .second-box .second-form #form p #grayish-color{
+ color:$Grayish-Blue;
+}
+.container .second-box .second-form #form p #second-span{
+ color:$red-color;
+}
+
+
+footer{
+ text-align: center;
+ font-size:1.5rem;
+
+}
+footer a{
+ text-decoration: none;
+ color:white;
+}
+
+footer a:hover{
+ text-decoration: underline;
+}
+
+
+
+/*OPACITY*/
+
+@keyframes opacity {
+ from{
+  opacity: 0;
+ }
+ to{
+  opacity: 1;
+ }
+}

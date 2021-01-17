@@ -1,0 +1,22 @@
+@media all and (max-width:956px){
+ .container .second-box .second-first{
+  margin-top: 5rem;
+ }
+}
+
+
+@media all and (max-width:412px) {
+ .container .second-box .second-first{
+  height: 5rem;
+ }
+}
+
+@media all and (max-width:414px){
+ .container .first-box h1{
+  font-size: 2rem;
+ }
+ .container .first-box p{
+  font-size: 0.71rem;
+  text-align: center;
+ }
+}

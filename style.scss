@@ -1,0 +1,32 @@
+/*COLOR PART*/
+$red-color:  hsl(0, 100%, 74%);
+$green-color: hsl(154, 59%, 51%);
+$blue-color: hsl(248, 32%, 49%);
+$dark-blue-color: hsl(249, 10%, 26%);
+$Grayish-Blue: hsl(246, 25%, 77%);
+
+/*FONT SIZE SECTION*/
+$font-size: 16px;
+
+/*TYPOGRAPHY SECTION*/
+@font-face{
+ font-family: 'regular-400';
+ src: url('../font/Poppins-Medium.ttf');
+}
+
+@font-face{
+ font-family: 'weight-500';
+ src: url('../font/Poppins-MediumItalic.ttf');
+}
+@font-face{
+ font-family: 'weight-600';
+ src: url('../font/Poppins-Regular.ttf');
+}
+@font-face{
+ font-family: 'weight-700';
+ src: url('../font/Poppins-SemiBold.ttf');
+}
+
+@import "global";
+@import "main-page";
+@import "responsive";
